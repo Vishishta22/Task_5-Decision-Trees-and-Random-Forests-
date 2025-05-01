@@ -97,6 +97,9 @@ Feature importance was extracted using `model.feature_importances_` from the tra
 - Cross-validation scores:
 - [0.7666, 0.7570, 0.8169, 0.8255, 0.8194]
 - Average CV Accuracy: 0.7971
+- On average, our model correctly classifies ~79.7% of the instances.
+- This gives a more reliable estimate of performance than just one train-test split.
+- It suggests your model generalizes fairly well to unseen data.
 
 
 This ensures the model's performance is stable and not due to random data splits.
